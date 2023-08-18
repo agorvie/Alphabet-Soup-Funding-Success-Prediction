@@ -1,16 +1,16 @@
-Deep Learning Challenge
+# Deep Learning Challenge
 
-Report
+# Report
 
-Alphabet Soup Funding Success Prediction - Deep Learning Model Performance Report
+## Alphabet Soup Funding Success Prediction - Deep Learning Model Performance Report
 
-Overview of the Analysis:
+## Overview of the Analysis:
 The purpose of this analysis is to develop a deep learning model that can predict whether applicants receiving funding from Alphabet Soup will be successful in their ventures. The model is trained on a dataset containing information about more than    34,000 organizations that have received funding. The goal is to create a binary classifier that accurately predicts the success of the funding recipients based on various features.
 
 
-Results:
+## Results:
 
-Data Preprocessing:
+### Data Preprocessing:
 
 . Target Variable: IS_SUCCESSFUL (Binary variable indicating 
   funding success)
@@ -23,7 +23,7 @@ Data Preprocessing:
   focusing on the most relevant features, the model's performance is more likely to  
   improve as it learns meaningful patterns in the data. 
 
-Compiling, Training, and Evaluating the Model:
+### Compiling, Training, and Evaluating the Model:
 
 . Optimized Neural Network Architecture:
       . Input Layer: Number of features = 43 (determined by the 
@@ -69,7 +69,7 @@ To optimize performance I did the following:
           activation functions.
 	
 
-Summary:
+### Summary:
 
 The optimized deep learning model achieved an accuracy of 72.6% on the test data, indicating its fair ability to predict funding success with moderate accuracy. While this performance could be acceptable, there is more room for improvement. 
 
